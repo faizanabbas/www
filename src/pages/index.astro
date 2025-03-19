@@ -1,5 +1,17 @@
 ---
+import AvatarImage from "@assets/avatar.png";
+import { Image } from "astro:assets";
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout> Hello. </Layout>
+<Layout>
+    <div class="size-full flex items-center justify-center gap-6">
+        <div class="aspect-square h-16 rounded-full dark:bg-neutral-300">
+            <Image alt="" class="w-fit h-fit" src={AvatarImage} />
+        </div>
+        <div>
+            <div class="font-semibold">Faizan Abbas</div>
+            <div>Software Engineer</div>
+        </div>
+    </div>
+</Layout>
