@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
     "astro": "^5.5.3",
+    "sharp": "^0.33.5",
     "tailwindcss": "^4.0.14"
   },
   "packageManager": "pnpm@10.6.4+sha512.da3d715bfd22a9a105e6e8088cfc7826699332ded60c423b14ec613a185f1602206702ff0fe4c438cb15c979081ce4cb02568e364b15174503a63c7a8e2a5f6c"
