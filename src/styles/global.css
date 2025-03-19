@@ -9,7 +9,7 @@ body {
     @apply font-sans antialiased;
     @apply flex flex-col;
     @apply bg-neutral-100 dark:bg-neutral-950;
-    @apply text-black/90 dark:text-white/90;
+    @apply dark:text-white;
 }
 
 main {
